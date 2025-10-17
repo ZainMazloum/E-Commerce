@@ -5,16 +5,15 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="bg-black text-white px-4 py-6 text-center">
-      <a
-        href="#"
-        className="text-lg font-semibold tracking-wide text-indigo-400 hover:text-indigo-300 transition"
+      <p
+        className="text-lg font-semibold tracking-wide text-indigo-400"
         data-aos="fade-up"
         data-aos-delay="100"
       >
         Zain Mazloum
-      </a>
+      </p>
 
-      <ul
+      {/* <ul
         className="flex flex-wrap justify-center gap-4 mt-4 text-xs font-medium"
         data-aos="fade-up"
         data-aos-delay="200"
@@ -49,8 +48,12 @@ const Footer = () => {
             Contact
           </a>
         </li>
-      </ul>
-
+      </ul> */}
+<div className="flex flex-wrap justify-center gap-4 mt-4 text-xs font-medium"
+        data-aos="fade-up"
+        data-aos-delay="200">
+          <a target="_blank" className="hover:text-indigo-900 transition" href="https://portfolio-mu-eight-rsgqkywo63.vercel.app/">Click To See Portfolio</a>
+        </div>
       <div
         className="flex justify-center gap-4 mt-4"
         data-aos="fade-up"
